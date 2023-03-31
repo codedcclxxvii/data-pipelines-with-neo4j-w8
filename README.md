@@ -10,14 +10,23 @@ Install the necessary dependencies by running pip install -r requirements.txt.
 
 Create a .env file in the root directory of the project and set the following environment variables:
 
-NEO4J_URI: the URI of the Neo4j database
-NEO4J_USERNAME: the username for the Neo4j database
-NEO4J_PASSWORD: the password for the Neo4j database
-PGDATABASE: the name of the PostgreSQL database
-PGUSER: the username for the PostgreSQL database
-PGPASSWORD: the password for the PostgreSQL database
-PGHOST: the host of the PostgreSQL database
-PGPORT: the port of the PostgreSQL database
+
+    NEO4J_URI: the URI of the Neo4j database
+
+    NEO4J_USERNAME: the username for the Neo4j database
+
+    NEO4J_PASSWORD: the password for the Neo4j database
+
+    PGDATABASE: the name of the PostgreSQL database
+
+    PGUSER: the username for the PostgreSQL database
+
+    PGPASSWORD: the password for the PostgreSQL database
+
+    PGHOST: the host of the PostgreSQL database
+
+    PGPORT: the port of the PostgreSQL database
+
 Make sure that the Neo4j database is running and accessible.
 
 Create a PostgreSQL database with the name telecom.
