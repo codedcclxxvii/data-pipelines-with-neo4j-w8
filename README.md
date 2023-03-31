@@ -41,14 +41,14 @@ Run the data pipeline by running python main.py.
 ### Data Schema
 
 The data schema for the PostgreSQL database is as follows:
-CREATE TABLE subscriptions (
-    customer_id INTEGER,
-    subscription_id INTEGER,
-    service_id INTEGER,
-    start_date DATE,
-    end_date DATE,
-    price FLOAT
-);
+    CREATE TABLE subscriptions (
+        customer_id INTEGER,
+        subscription_id INTEGER,
+        service_id INTEGER,
+        start_date DATE,
+        end_date DATE,
+        price FLOAT
+    );
 
 ### Transformations
 
